@@ -1,1 +1,4 @@
-fn main(){println!("fn main(){{println!('fn main() {{println!('');}});");}
+fn main()
+{
+    println!("Hello, World");
+}
