@@ -1,0 +1,1 @@
+rust-factorial-of-number
