@@ -5,7 +5,7 @@ pub struct Memory {
 impl Memory {
     pub fn new() -> Memory {
         Memory {
-            mem: Box::new([0x0; 4095])
+            mem: Box::new([0u8; 4095])
         }
     }
 
