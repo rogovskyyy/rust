@@ -1,11 +1,11 @@
 pub struct Memory {
-    mem: Box<[u8; 4095]>
+    pub mem: Box<[u8; 0xFFF]>
 }
 
 impl Memory {
     pub fn new() -> Memory {
         Memory {
-            mem: Box::new([0u8; 4095])
+            mem: Box::new([0x0; 0xFFF])
         }
     }
 
